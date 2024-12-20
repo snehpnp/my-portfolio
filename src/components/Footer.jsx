@@ -16,7 +16,7 @@ const Footer = () => {
         <a href="https://linkedin.com" style={{ margin: '0 10px' }}>
           <FaLinkedin color="white" />
         </a>
-        <a href="https://github.com" style={{ margin: '0 10px' }}>
+        <a href="https://github.com/snehpnp" style={{ margin: '0 10px' }}>
           <FaGithub color="white" />
         </a>
         <a href="https://twitter.com" style={{ margin: '0 10px' }}>
