@@ -17,7 +17,7 @@ const Projects = () => {
 
   const iframeStyle = {
     width: '100%',
-    height: '500px',
+    height: '400px',
     borderRadius: '10px',
     border: 'none',
     marginBottom: '15px',

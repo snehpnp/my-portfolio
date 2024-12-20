@@ -20,7 +20,7 @@ const About = () => {
         flexDirection: 'row', // Horizontal layout
         justifyContent: 'space-between', // Distribute space between image and content
         alignItems: 'center', // Vertically center the content
-        animation: 'fadeIn 2s ease-out',
+        // animation: 'fadeIn 2s ease-out',
       }}
     >
       <div style={{ width: '50%', textAlign: 'center' }}>
@@ -28,7 +28,7 @@ const About = () => {
           src={uniqueImageUrl}
           alt="Sneh Jaiswal"
           style={{
-            width: '950px',
+            width: '800px',
             height: '600px',
             // maxWidth: '300px', // Limit the image size
             borderRadius: '5%',
@@ -45,7 +45,7 @@ const About = () => {
             fontSize: '2.5rem',
             color: '#00bcd4', // Light blue for header
             marginBottom: '30px',
-            animation: 'slideIn 1s ease-out',
+            // animation: 'slideIn 1s ease-out',
           }}
         >
           About Me 😊

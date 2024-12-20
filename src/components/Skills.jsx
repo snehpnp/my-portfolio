@@ -4,16 +4,102 @@ const Skills = () => {
   const [currentLanguage, setCurrentLanguage] = useState(0);
 
   const languages = [
-    { name: 'JavaScript', icon: '🟨', description: 'A versatile, high-level programming language commonly used for web development.' },
-    { name: 'TypeScript', icon: '🔵', description: 'A superset of JavaScript that adds static types to the language, enhancing productivity and code quality.' },
-    { name: 'Python', icon: '🐍', description: 'A widely-used, high-level programming language known for its readability and simplicity.' },
-    { name: 'Java', icon: '☕', description: 'A class-based, object-oriented programming language used in web and mobile development.' },
-    { name: 'C++', icon: '➕', description: 'An extension of the C programming language, known for its efficiency and control over system resources.' },
-    { name: 'C#', icon: '#️⃣', description: 'A modern, object-oriented programming language developed by Microsoft for the .NET platform.' },
-    { name: 'Go', icon: '🐹', description: 'A statically typed, compiled programming language designed at Google for building simple, reliable, and efficient software.' },
-    { name: 'Swift', icon: '🍎', description: 'A powerful and intuitive programming language developed by Apple for iOS, macOS, watchOS, and tvOS development.' },
-    { name: 'Kotlin', icon: '🤖', description: 'A modern, statically typed programming language that runs on the Java Virtual Machine (JVM) and is often used for Android development.' },
-    { name: 'Ruby', icon: '♦️', description: 'A dynamic, object-oriented scripting language known for its elegance and developer-friendly syntax.' },
+    {
+      name: "HTML",
+      category: "Frontend",
+      description: "The foundation of web pages, providing structure and content.",
+      icon: "🧱",
+    },
+    {
+      name: "CSS",
+      category: "Frontend",
+      description: "Used for styling HTML elements, controlling layout, colors, and fonts.",
+      icon: "🎨",
+    },
+    {
+      name: "Bootstrap",
+      category: "Frontend",
+      description: "A CSS framework providing pre-styled components and a responsive grid system.",
+      icon: "🗂️",
+    },
+    {
+      name: "Material UI",
+      category: "Frontend",
+      description: "A React component library implementing Google's Material Design.",
+      icon: "Ⓜ️",
+    },
+    {
+      name: "Tailwind CSS",
+      category: "Frontend",
+      description: "A utility-first CSS framework for highly customized styling.",
+      icon: "💨",
+    },
+    {
+      name: "React",
+      category: "Frontend",
+      description: "A JavaScript library for building user interfaces, especially single-page applications.",
+      icon: "⚛️",
+    },
+    {
+      name: "Redux",
+      category: "Frontend",
+      description: "A state management library for React applications.",
+      icon: "🔄",
+    },
+    {
+      name: "Node.js",
+      category: "Backend",
+      description: "A JavaScript runtime environment that allows running JavaScript on the server.",
+      icon: "⚙️",
+    },
+    {
+      name: "Express.js",
+      category: "Backend",
+      description: "A Node.js web application framework for building APIs and handling routing.",
+      icon: "🚀",
+    },
+      {
+      name: "Bun",
+      category: "Backend",
+      description: "A fast all-in-one JavaScript runtime.",
+      icon: "🐇",
+    },
+    {
+      name: "SQL",
+      category: "Backend",
+      description: "A language for managing and querying relational databases.",
+      icon: "🗄️",
+    },
+    {
+      name: "MongoDB",
+      category: "Backend",
+      description: "A NoSQL database that stores data in JSON-like documents.",
+      icon: "🌱",
+    },
+    {
+      name: "Redis",
+      category: "Backend",
+      description: "An in-memory data store often used as a cache or message broker.",
+      icon: "⚡",
+    },
+    {
+      name: "Vite",
+      category: "Build Tool",
+      description: "A build tool for faster development experiences, especially with modern frameworks.",
+      icon: "⚡",
+    },
+    {
+      name: "GitHub",
+      category: "Version Control",
+      description: "A web-based platform for version control using Git.",
+      icon: "🐱",
+    },
+    {
+      name: "Postman",
+      category: "API Testing",
+      description: "A tool for testing APIs by sending HTTP requests and inspecting responses.",
+      icon: "📮",
+    },
   ];
 
   const handlePrev = () => {

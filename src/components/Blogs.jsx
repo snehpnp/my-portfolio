@@ -191,8 +191,8 @@ const Blogs = () => {
                 src={card.image}
                 alt={card.title}
                 style={{
-                  width: "400px",
-                  height: "400px",
+                  width: "300px",
+                  height: "300px",
                   borderRadius: "8px",
                   marginBottom: "10px",
                 }}
