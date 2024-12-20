@@ -1,8 +1,11 @@
 import React from 'react';
+import DummyImg from '../assets/Images/tt.png'
 
 const About = () => {
   // Generate a unique query parameter using the current timestamp
-  const uniqueImageUrl = `https://avatars.githubusercontent.com/u/90446545?v=4&t=${new Date().getTime()}`;
+  // const uniqueImageUrl = `https://avatars.githubusercontent.com/u/90446545?v=4&t=${new Date().getTime()}`;
+  const uniqueImageUrl = DummyImg
+
 
   return (
     <section
@@ -25,13 +28,13 @@ const About = () => {
           src={uniqueImageUrl}
           alt="Sneh Jaiswal"
           style={{
-            width: '450px',
-            height: '500px',
+            width: '950px',
+            height: '600px',
             // maxWidth: '300px', // Limit the image size
             borderRadius: '5%',
             boxShadow: '0 4px 6px rgb(0, 0, 0)',
             marginBottom: '20px',
-            animation: 'bounce 2s infinite',
+            // animation: 'bounce 2s infinite',
           }}
         />
       </div>
