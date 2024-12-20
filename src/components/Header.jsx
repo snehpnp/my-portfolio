@@ -7,8 +7,8 @@ const Header = () => {
         position: "sticky",
         top: "0",
         zIndex: "100",
-        backgroundColor: "#2e3b4e",
-        color: "white",
+        backgroundColor: "black", // Set the background color to black
+        color: "white", // Set the text color to white
         padding: "0",
         textAlign: "center",
         boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",

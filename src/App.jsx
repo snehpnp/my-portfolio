@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FaLinkedin, FaGithub, FaTwitter, FaInstagram } from 'react-icons/fa';
+import './App.css'
 import Header from './components/Header';
 import About from './components/About';
 import Projects from './components/Projects';
@@ -24,7 +24,7 @@ const App = () => {
   };
 
   return (
-    <div style={{ fontFamily: 'Arial, sans-serif' }}>
+    <div className='container' style={{ fontFamily: 'Arial, sans-serif', backgroundColor: 'black', color: 'white',marginTop:"5px" }}>
       <Header />
       <About />
       <Projects />

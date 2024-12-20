@@ -3,7 +3,8 @@ import React from 'react';
 const Projects = () => {
   const projectCardStyle = {
     padding: '15px',
-    backgroundColor: 'white',
+    backgroundColor: 'black',
+    color: 'white',
     borderRadius: '10px',
     boxShadow: '0 4px 10px rgba(0, 0, 0, 0.15)',
     transition: 'transform 0.3s ease, box-shadow 0.3s ease',
@@ -58,8 +59,8 @@ const Projects = () => {
   ];
 
   return (
-    <section style={{ padding: '20px', backgroundColor: '#f8f9fa' }}>
-      <h2 style={{ fontSize: '2.5rem', color: '#0077b6', textAlign: 'center', marginBottom: '30px' }}>
+    <section style={{ padding: '20px', backgroundColor: 'black' }}>
+      <h2 style={{ fontSize: '2.5rem', color: 'white', textAlign: 'center', marginBottom: '30px' }}>
         Projects
       </h2>
       <div

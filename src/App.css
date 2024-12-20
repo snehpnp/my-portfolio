@@ -1,0 +1,27 @@
+/* Apply to body to ensure no extra scrollbars are visible */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden; /* Hide body scrollbar */
+  }
+  
+  /* Container for scrollable content */
+  .container {
+    height: 100vh; /* Full viewport height */
+    overflow-y: scroll; /* Enable vertical scrolling */
+    margin: 0; /* Ensure no margin causing an extra scrollbar */
+    padding-right: 15px; /* Optional, to adjust if there's space taken by the scrollbar */
+  }
+  
+  /* Hide scrollbar in Webkit browsers (Chrome, Safari, Edge) */
+  .container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* For Firefox, hide scrollbar */
+  .container {
+    -ms-overflow-style: none; /* For Internet Explorer */
+    scrollbar-width: none; /* For Firefox */
+  }
+  

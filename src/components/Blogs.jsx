@@ -156,7 +156,7 @@ const Blogs = () => {
 
   return (
     <section style={{ padding: "20px" }}>
-      <h2 style={{ fontSize: "2rem", color: "#0077b6", textAlign: "center" }}>
+      <h2 style={{ fontSize: "2rem", color: "white", textAlign: "center" }}>
         Blogs
       </h2>
       <div
@@ -175,13 +175,14 @@ const Blogs = () => {
             onDrop={(e) => handleDrop(e, index)}
             onDragOver={handleDragOver}
             style={{
-              width: "600px",
+              width: "400px",
               padding: "10px",
-              backgroundColor: "white",
+              backgroundColor: "black",
               borderRadius: "8px",
               boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
               textAlign: "center",
               cursor: "grab",
+              color: "white",
             }}
           >
             {/* Conditional rendering of the content */}
@@ -190,7 +191,7 @@ const Blogs = () => {
                 src={card.image}
                 alt={card.title}
                 style={{
-                  width: "500px",
+                  width: "400px",
                   height: "400px",
                   borderRadius: "8px",
                   marginBottom: "10px",
@@ -198,7 +199,7 @@ const Blogs = () => {
               />
             )}
 
-            <h3 style={{ fontSize: "1.25rem", color: "#333" }}>{card.title}</h3>
+            <h3 style={{ fontSize: "1.25rem", color: "white" }}>{card.title}</h3>
             <p style={{ fontSize: "0.9rem", color: "#666", margin: "10px 0" }}>
               {card.description}
             </p>

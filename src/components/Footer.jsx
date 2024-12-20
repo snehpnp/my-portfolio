@@ -5,8 +5,8 @@ const Footer = () => {
   return (
     <footer
       style={{
-        backgroundColor: '#2e3b4e',
-        color: 'white',
+        backgroundColor: '#000000', // Set background to black
+        color: 'white', // Set font color to white
         textAlign: 'center',
         padding: '20px',
       }}
