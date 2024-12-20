@@ -203,12 +203,7 @@ const Blogs = () => {
             <p style={{ fontSize: "0.9rem", color: "#666", margin: "10px 0" }}>
               {card.description}
             </p>
-            <a
-              href={card.link}
-              style={{ color: "#0077b6", textDecoration: "none" }}
-            >
-              Read More
-            </a>
+           
           </div>
         ))}
       </div>

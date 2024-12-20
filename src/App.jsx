@@ -8,10 +8,19 @@ import Education from './components/Education';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-
+import GitHubContributions from './components/GitHubContributions'
 const App = () => {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
   const [submitted, setSubmitted] = useState(false);
+
+
+  const [theme, setTheme] = useState("light");
+
+  const toggleTheme = () => {
+    const newTheme = theme === "light" ? "dark" : "light";
+    setTheme(newTheme);
+    document.documentElement.setAttribute("data-theme", newTheme);
+  };
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -25,6 +34,7 @@ const App = () => {
 
   return (
     <div className='container' style={{ fontFamily: 'Arial, sans-serif', backgroundColor: 'black', color: 'white',marginTop:"5px" }}>
+      
       <Header />
       <About />
       <Projects />
@@ -32,6 +42,7 @@ const App = () => {
       <Education />
       <Skills />
       <Contact formData={formData} handleInputChange={handleInputChange} handleSubmit={handleSubmit} submitted={submitted} />
+      <GitHubContributions />
       <Footer />
     </div>
   );
