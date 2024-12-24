@@ -2,6 +2,8 @@
 
 Welcome to my personal portfolio! I am a passionate web developer with expertise in building dynamic and interactive websites using modern web technologies.
 
+You can view my portfolio live here: [https://snehpnp.github.io/my-portfolio/](https://snehpnp.github.io/my-portfolio/)
+
 ## 🚀 Technologies I Use
 
 - **Frontend:**
@@ -37,7 +39,7 @@ Here are some of the projects I have worked on:
 
 I specialize in **MERN Stack** development and have a strong foundation in building full-stack applications. I focus on writing clean and efficient code, and I am always learning new technologies to improve my skills. If you need any help with web development or want to collaborate on exciting projects, feel free to reach out!
 
-- 📍 **Location:** Indore,India
+- 📍 **Location:** Indore, India
 - 📧 **Email:** snehpnp@gmail.com
 
 ## 🛠️ Contact
