@@ -8,12 +8,10 @@ import Education from './components/Education';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import GitHubContributions from './components/GitHubContributions'
+
 const App = () => {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
   const [submitted, setSubmitted] = useState(false);
-
-
   const [theme, setTheme] = useState("light");
 
   const toggleTheme = () => {
@@ -33,16 +31,16 @@ const App = () => {
   };
 
   return (
-    <div className='container' style={{ fontFamily: 'Arial, sans-serif', backgroundColor: 'black', color: 'white',marginTop:"5px" }}>
+    <div className='container form-controle' style={{ fontFamily: 'Arial, sans-serif', backgroundColor: 'black', color: 'white' }}>
       
       <Header />
       <About />
       <Projects />
-      <Blogs />
-      <Education />
       <Skills />
+      <Education />
+      <Blogs />
       <Contact formData={formData} handleInputChange={handleInputChange} handleSubmit={handleSubmit} submitted={submitted} />
-      <GitHubContributions />
+     
       <Footer />
     </div>
   );

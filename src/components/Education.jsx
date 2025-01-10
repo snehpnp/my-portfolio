@@ -4,16 +4,28 @@ const Education = () => {
   return (
     <section
       style={{
-        padding: '40px',
-        backgroundColor: 'black', // Dark background for the section
+        padding: '50px',
+        backgroundColor: 'Black', // Dark background for the section
         color: 'white', // White text color
-        borderRadius: '15px',
-        boxShadow: '0 8px 16px rgba(0, 0, 0, 0.3)',
+        borderRadius: '20px',
+        boxShadow: '0 10px 20px rgba(0, 0, 0, 0.5)',
+        marginBottom: '40px', // Space below the section
+        animation: 'fadeIn 1s ease-out',
       }}
     >
-      <h2 style={{ fontSize: '2.5rem', color: '#00bcd4', textAlign: 'center', marginBottom: '40px' }}>
+      <h2
+        style={{
+          fontSize: '3rem',
+          color: '#00bcd4',
+          textAlign: 'center',
+          marginBottom: '40px',
+          textTransform: 'uppercase',
+          letterSpacing: '2px',
+        }}
+      >
         🎓 Education
       </h2>
+
       <div
         style={{
           display: 'flex',
@@ -27,21 +39,22 @@ const Education = () => {
         <div
           style={{
             width: '45%',
-            padding: '25px',
-            backgroundColor: '#1e1e1e', // Darker card background
-            borderRadius: '12px',
-            boxShadow: '0 6px 12px rgba(0, 0, 0, 0.3)',
+            padding: '30px',
+            backgroundColor: '#1a1a1a', // Darker background for the card
+            borderRadius: '15px',
+            boxShadow: '0 8px 20px rgba(0, 0, 0, 0.4)',
             color: 'white',
             transition: 'transform 0.3s ease, box-shadow 0.3s ease',
             cursor: 'pointer',
+            position: 'relative',
           }}
         >
-          <h3 style={{ fontSize: '1.9rem', color: '#00bcd4' }}>
-            🎓 Bachelor's Degree in Computer Science
+          <h3 style={{ fontSize: '2rem', color: '#00bcd4' }}>
+            🎓 BCA + IT from SSIM College & Vikram University
           </h3>
-          <p style={{ fontSize: '1.3rem' }}>XYZ University (2015 - 2019)</p>
+          <p style={{ fontSize: '1.3rem' }}>SSIM College, Vikram University (2015 - 2019)</p>
           <p style={{ fontSize: '1.1rem', marginTop: '10px' }}>
-            Focus: Full Stack Development, Algorithms, Data Structures
+            Focus: Full Stack Development, Algorithms, IT Infrastructure
           </p>
         </div>
 
@@ -49,19 +62,20 @@ const Education = () => {
         <div
           style={{
             width: '45%',
-            padding: '25px',
-            backgroundColor: '#1e1e1e', // Darker card background
-            borderRadius: '12px',
-            boxShadow: '0 6px 12px rgba(0, 0, 0, 0.3)',
+            padding: '30px',
+            backgroundColor: '#1a1a1a', // Darker background for the card
+            borderRadius: '15px',
+            boxShadow: '0 8px 20px rgba(0, 0, 0, 0.4)',
             color: 'white',
             transition: 'transform 0.3s ease, box-shadow 0.3s ease',
             cursor: 'pointer',
+            position: 'relative',
           }}
         >
-          <h3 style={{ fontSize: '1.9rem', color: '#00bcd4' }}>
-            🎓 Master's Degree in Computer Science
+          <h3 style={{ fontSize: '2rem', color: '#00bcd4' }}>
+            🎓 MCA from Mathura Devi College
           </h3>
-          <p style={{ fontSize: '1.3rem' }}>ABC University (2020 - 2022)</p>
+          <p style={{ fontSize: '1.3rem' }}>Mathura Devi College (2020 - 2022)</p>
           <p style={{ fontSize: '1.1rem', marginTop: '10px' }}>
             Focus: Machine Learning, AI, Web Development
           </p>
@@ -72,8 +86,19 @@ const Education = () => {
       <style>
         {`
           div:hover {
-            transform: translateY(-8px);
-            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+            transform: translateY(-10px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6);
+          }
+
+          @keyframes fadeIn {
+            0% {
+              opacity: 0;
+              transform: translateY(20px);
+            }
+            100% {
+              opacity: 1;
+              transform: translateY(0);
+            }
           }
         `}
       </style>

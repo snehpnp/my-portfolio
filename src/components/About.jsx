@@ -1,11 +1,9 @@
 import React from 'react';
-import DummyImg from '../assets/Images/tt.png'
+import DummyImg from '../assets/Images/tt.png';
 
 const About = () => {
   // Generate a unique query parameter using the current timestamp
-  // const uniqueImageUrl = `https://avatars.githubusercontent.com/u/90446545?v=4&t=${new Date().getTime()}`;
-  const uniqueImageUrl = DummyImg
-
+  const uniqueImageUrl = DummyImg;
 
   return (
     <section
@@ -21,6 +19,7 @@ const About = () => {
         justifyContent: 'space-between', // Distribute space between image and content
         alignItems: 'center', // Vertically center the content
         // animation: 'fadeIn 2s ease-out',
+        position: 'relative',
       }}
     >
       <div style={{ width: '50%', textAlign: 'center' }}>
@@ -35,6 +34,7 @@ const About = () => {
             boxShadow: '0 4px 6px rgb(0, 0, 0)',
             marginBottom: '20px',
             // animation: 'bounce 2s infinite',
+            pointerEvents: 'none', // Prevent interaction with the image
           }}
         />
       </div>
@@ -98,6 +98,14 @@ const About = () => {
             50% {
               transform: translateY(-10px);
             }
+          }
+          /* Ensure no hover effect is changing layout properties */
+          section:hover,
+          section img:hover,
+          section div:hover {
+            transition: none; /* Disable transition during hover */
+            transform: none; /* Disable transform change on hover */
+            box-shadow: none; /* Disable shadow change */
           }
         `}
       </style>

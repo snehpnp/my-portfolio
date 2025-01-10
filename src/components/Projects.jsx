@@ -17,7 +17,7 @@ const Projects = () => {
 
   const iframeStyle = {
     width: '100%',
-    height: '400px',
+    height: '500px',
     borderRadius: '10px',
     border: 'none',
     marginBottom: '15px',
@@ -54,7 +54,7 @@ const Projects = () => {
         'A trading-related B2B application that allows businesses to provide services to multiple clients. Includes online payment integration using Razorpay and multi-broker setup.',
       technology: 'React, Redux, Node.js, Razorpay API',
       github: 'https://github.com/example/connect-box',
-      demo: 'https://connectbox.tradestreet.in/#/login',
+      demo: 'https://connect.thealgo.co.in/#/login',
     },
   ];
 
@@ -81,12 +81,7 @@ const Projects = () => {
             <iframe src={project.demo} title={project.title} style={iframeStyle}></iframe>
             <p><strong>Description:</strong> {project.description}</p>
             <p><strong>Technology:</strong> {project.technology}</p>
-            {/* <p>
-              <strong>GitHub:</strong>{' '}
-              <a href={project.github} target="_blank" rel="noopener noreferrer">
-                {project.github}
-              </a>
-            </p> */}
+        
           </div>
         ))}
       </div>
