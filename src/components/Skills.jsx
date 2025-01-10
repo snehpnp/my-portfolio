@@ -120,15 +120,17 @@ const Skills = () => {
         boxShadow: '0 8px 16px rgba(0, 0, 0, 0.2)',
       }}
     >
-      <h2
+     <h2
         style={{
-          fontSize: '2.5rem',
-          color: 'white',
-          textAlign: 'center',
-          marginBottom: '40px',
+          fontSize: "3rem",
+          color: "#00bcd4",
+          textAlign: "center",
+          marginBottom: "40px",
+          textTransform: "uppercase",
+          letterSpacing: "2px",
         }}
       >
-        💼 Skills
+            Skills 💼
       </h2>
 
       {/* Language Carousel */}

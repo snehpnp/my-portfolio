@@ -19,9 +19,9 @@ const Header = () => {
         gap: "10px", // Space between elements
       }}
     >
-      <h1 style={{ fontSize: "2.5rem", margin: "0" }}>Sneh Jaiswal</h1>
+      <h1 style={{ fontSize: "2.5rem", margin: "0" }}>Sneh Jaiswal 👨‍💻</h1>
       <p style={{ fontSize: "1.2rem", margin: "0" }}>
-        Full Stack Developer
+        Full Stack Developer 💻🌐
       </p>
     </header>
   );

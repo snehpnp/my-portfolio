@@ -8,6 +8,7 @@ import Education from './components/Education';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Three from './components//Three';
 
 const App = () => {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
@@ -32,6 +33,7 @@ const App = () => {
 
   return (
     <div className='container form-controle' style={{ fontFamily: 'Arial, sans-serif', backgroundColor: 'black', color: 'white' }}>
+      <Three />
       
       <Header />
       <About />

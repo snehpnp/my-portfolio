@@ -42,7 +42,18 @@ const Contact = () => {
 
   return (
     <section style={{ padding: '40px 20px', backgroundColor: '#000000', color: '#ffffff' }}>
-      <h2 style={{ fontSize: '2.5rem', color: '#ffffff', textAlign: 'center' }}>Contact Me</h2>
+       <h2
+        style={{
+          fontSize: "3rem",
+          color: "#00bcd4",
+          textAlign: "center",
+          marginBottom: "40px",
+          textTransform: "uppercase",
+          letterSpacing: "2px",
+        }}
+      >
+          Contect Me 📞
+      </h2>
       <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', gap: '30px' }}>
         {/* Image Column */}
         <div

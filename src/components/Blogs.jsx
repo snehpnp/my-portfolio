@@ -47,8 +47,17 @@ const Blogs = () => {
 
   return (
     <section style={{ padding: "20px" }}>
-      <h2 style={{ fontSize: "2rem", color: "white", textAlign: "center" }}>
-        Blogs
+     <h2
+        style={{
+          fontSize: "3rem",
+          color: "#00bcd4",
+          textAlign: "center",
+          marginBottom: "40px",
+          textTransform: "uppercase",
+          letterSpacing: "2px",
+        }}
+      >
+           Blogs 📚
       </h2>
       <div
         style={{

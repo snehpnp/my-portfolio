@@ -23,7 +23,7 @@ const Education = () => {
           letterSpacing: '2px',
         }}
       >
-        🎓 Education
+         Education 🎓
       </h2>
 
       <div
